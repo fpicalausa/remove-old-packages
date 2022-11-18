@@ -21,7 +21,7 @@ Without setting `dry_run: true`, this action will remove packages. Consider sett
 | `package-name`               |                               | The package for which old version will be removed                                            |
 | `github-token`               | `${{ secrets.GITHUB_TOKEN }}` | PAT for GitHub API authentication.                                                           |
 | `dry-run`                    | `false`                       | Flag that prevents this action from doing any modification to the repository.                |
-| `operations-per-run`         | 10                            | Maximum number of stale branches to look at in any run of this action.                       |
+| `operations-per-run`         | 10                            | Maximum number of versions to remove in any run of this action.                              |
 | `days-before-package-is-old` | 90                            | A package will be candidate for removal this many days after it was created                  |
 | `protect-latest-n-versions`  | 2                             | The latest N versions of a package will never be candidate for removal, even if they are old |
 
