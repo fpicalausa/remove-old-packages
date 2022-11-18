@@ -16,7 +16,7 @@ inputs:
   package-name:
     description: "Name of the package to remove"
     required: true
-  latest-n-versions-to-keep:
+  protect-latest-n-versions:
     description: "Regardless of the package age, always keep the latest N versions"
     default: "2"
     required: false

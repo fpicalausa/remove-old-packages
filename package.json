@@ -1,7 +1,7 @@
 {
   "name": "remove-old-packages",
   "private": true,
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Remove old packages versions",
   "main": "src/index.ts",
   "author": "Francois Picalausa <fpicalausa@gmail.com>",
